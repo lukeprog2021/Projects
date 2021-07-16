@@ -112,3 +112,8 @@ button.outlined,
   color: var(--blue);
   border:.2rem solid var(--blue);
 } 
+
+button a{
+  color:var(--white);
+  padding: 2rem;
+}

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/room.css" />
-        <link rel="stylesheet" href="styles/modal.css" />
+    <link rel="stylesheet" href="../public/styles/global.css" />
+    <link rel="stylesheet" href="../public/styles/room.css" />
+    <link rel="stylesheet" href="/public/styles/modal.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,15 +22,15 @@
     <div id="room" class="content">
       <header>
         <a href="#">
-          <img src="assets/logo.svg" alt="logo" />
+          <img src="/public/image/logo.svg" alt="logo" />
         </a>
         <div class="buttons">
           <div class="button outlined">
             #323243
-            <img src="assets/copy.svg" alt="copy" />
+            <img src="/public/image/copy.svg" alt="copy" />
           </div>
           <a href="#" class="button">
-            <img src="assets/users-white.svg" alt="users" />
+            <img src="/public/image/users-white.svg" alt="users" />
             Criar Sala
           </a>
         </div>
@@ -50,7 +50,7 @@
             </textarea>
             <footer>
               <div>
-                <img src="assets/lock.svg" alt="lock" />
+                <img src="/public/image/lock.svg" alt="lock" />
                 Está pergunta é anônima
               </div>
               <button>Enviar</button>
@@ -63,7 +63,7 @@
             <div class="question-wrapper">
               <div class="questions-content">
                 <div class="user">
-                  <img src="assets/user.svg" alt="avatar" />
+                  <img src="/public/image/avatar.svg" alt="avatar" />
                 </div>
                 <div class="question">
                   <p>O que é TypeScript</p>
@@ -71,11 +71,11 @@
               </div>
               <div class="actions">
                 <a class="check" href="#">
-                  <img src="assets/check.svg" alt="check"/>
+                  <img src="/public/image/check.svg" alt="check"/>
                   Marcar como lida
                 </a>
                 <a class="trash" href="#">
-                  <img src="assets/trash.svg" alt="trash" />
+                  <img src="/public/image/trash.svg" alt="trash" />
                   Excluir
                 </a>
               </div>
@@ -83,7 +83,7 @@
              <div class="question-wrapper">
               <div class="questions-content">
                 <div class="user">
-                  <img src="assets/user.svg" alt="avatar" />
+                  <img src="/public/image/avatar.svg" alt="avatar" />
                 </div>
                 <div class="question">
                   <p>Qual a difrença entre const, var e let no JavaScript</p>
@@ -91,11 +91,11 @@
               </div>
               <div class="actions">
                 <a class="check" href="#">
-                  <img src="assets/check.svg" alt="check"/>
+                  <img src="/public/image/check.svg" alt="check"/>
                   Marcar como lida
                 </a>
                 <a class="trash" href="#">
-                  <img src="assets/trash.svg" alt="trash" />
+                  <img src="/public/image/trash.svg" alt="trash" />
                   Excluir
                 </a>
               </div>
@@ -103,7 +103,7 @@
              <div class="question-wrapper">
               <div class="questions-content">
                 <div class="user">
-                  <img src="assets/user.svg" alt="avatar" />
+                  <img src="/public/image/avatar.svg" alt="avatar" />
                 </div>
                 <div class="question">
                   <p>Qual a difrença entre const, var e let no JavaScript</p>
@@ -111,11 +111,11 @@
               </div>
               <div class="actions">
                 <a class="check" href="#">
-                  <img src="assets/check.svg" alt="check"/>
+                  <img src="/public/image/check.svg" alt="check"/>
                   Marcar como lida
                 </a>
                 <a class="trash" href="#">
-                  <img src="assets/trash.svg" alt="trash" />
+                  <img src="/public/image/trash.svg" alt="trash" />
                   Excluir
                 </a>
               </div>
@@ -123,7 +123,7 @@
              <div class="question-wrapper read">
               <div class="questions-content">
                 <div class="user">
-                  <img src="assets/user.svg" alt="avatar" />
+                  <img src="/public/image/avatar.svg" alt="avatar" />
                 </div>
                 <div class="question">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi doloribus sunt soluta porro! Possimus non distinctio modi necessitatibus soluta quae reiciendis, eos iste fugiat culpa vitae quasi dolores ea!</p>
@@ -131,7 +131,7 @@
               </div>
               <div class="actions">
                 <a class="trash" href="#">
-                  <img src="assets/trash.svg" alt="trash" />
+                  <img src="/public/image/trash.svg" alt="trash" />
                   Excluir
                 </a>
               </div>
@@ -142,7 +142,7 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal-wrapper">
+    <div class="modal-wrapper" style="display: none;">
         <div class="modal">
             <h2>Excluir pergunta</h2>
             <p>Tem certeza que vocÊ deseja excluir essa pergunta</p>
